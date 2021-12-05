@@ -1,0 +1,198 @@
+.navbar-light .navbar-nav .nav-link {
+	color:black;
+}
+
+ .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 8rem;
+	margin-left: 3rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* padding-left: 25px; */
+    margin-bottom: 0;
+    list-style: none;
+	padding-left: 0px;
+	
+}
+
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+	margin-left: 0px;
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    /* flex-grow: 1; */
+    -ms-flex-align: center;
+    align-items: left;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+
+	Margin-left: 1.8rem;
+	margin-right: 0rem;
+	
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+ background: url(images/888.jpg) no-repeat center center; 
+ background-size: cover; 
+ background-color: transparent;
+ height: 500px; 
+ margin-bottom: 0px;
+ 
+ } 
+ 
+ .jumbotron .col-md-12 {
+	 padding: 100px;
+	 width: auto;
+	 
+ }
+
+ .jumbotron h1 {
+ font-size: 80px;
+ color: black;
+ }
+ 
+ .jumbotron h3 {
+ font-size: 30px;
+ }
+ 
+
+.section-1 {
+ 
+ background-color: white; 
+ height: auto;
+ color: black;
+ padding-bottom: 20px;
+ padding-top: 10px;
+ }
+ 
+  .section-2 {
+ 
+ background-color: #4169E1; 
+ height: auto;
+ color: black;
+ padding-bottom: 20px;
+ padding-top: 10px;
+ margin-bottom: 0px;
+ }
+ 
+ .section-3 {
+ 
+ background-color: orange; 
+ height: auto;
+ color: black;
+ padding-bottom: 10px;
+ padding-top: 20px;
+ }
+ 
+  .section-4 {
+ 
+ background-color: #c71c2c; 
+ height: auto;
+ color: black;
+ padding-bottom: 20px;
+ padding-top: 20px;
+ }
+ 
+   .section-5 {
+ 
+ background-color: white; 
+ height: auto;
+ color: black;
+ padding-bottom: 20px;
+ padding-top: 20px;
+ }
+ 
+
+
+  .footer {
+ 
+ background-color: black; 
+ height: auto;
+ color: white;
+ padding-bottom: 5px;
+ padding-top: 5px;
+ 
+ }
+ 
+ /* card image height */
+  .card-img-top {
+	  height: 220px;
+	  
+	 
+  }
+  
+  
+  }
+   .card-img-side {
+	  height: 250px;
+	 
+  }
+  
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1px;
+}
+
+.h4, h4 {
+    font-size: 1.5rem;
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+
+
+/* selected link */
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+ .navbar-expand-sm .navbar-nav .nav-link {
+	Margin-left: 0rem;
+	margin-right: 0rem;
+	
+}
+  }
+
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    height: 500px;
